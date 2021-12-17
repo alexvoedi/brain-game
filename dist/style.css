@@ -1,0 +1,10 @@
+body {
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-template-rows: 1fr;
+}
+
+div {
+	margin: 25px;
+}

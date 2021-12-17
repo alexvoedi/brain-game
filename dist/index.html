@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <canvas id="game-canvas"></canvas>
+  </div>
+  <div id="game-stats">
+    <div>
+      <p>Level: <span id="level">1</span></p>
+    </div>
+    <div>
+      <p>Minimal Needed Moves: <span id="min-needed-moves">1</span></p>
+    </div>
+    <div>
+      <p>Moves: <span id="moves">0</span></p>
+    </div>
+    <div>
+      <p>Move Attempts: <span id="move-attempts">0</span></p>
+    </div>
+    <div>
+      <p>Score: <span id="score">0</span></p>
+    </div>
+    <pre id="debug"></pre>
+  </div>
+</body>
+<script src="./index.js"></script>
+</html>
